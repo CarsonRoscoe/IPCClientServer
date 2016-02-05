@@ -1,6 +1,6 @@
-# IPCClientServer
+# IPC Client Server
 
-IPC Client-Server applications to send the contents of local files across via message queues in Linux.
+An IPC Client-Server application that is used to to send the contents of local files from the server to the clients via message queues in Linux.
 
 The purpose of these applications is to utilize message queues to send & receive file data. The clients request a file name & a priority between low/medium/high, and in turn the server fetches that data from the file and returns it to the client via messaging queues. 
 
